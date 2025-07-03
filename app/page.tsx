@@ -1,4 +1,4 @@
-import { getNowPlayingMovies, getPopularMovies, getSearchMovies, getTopRatedMovies, getUpcomingMovies } from "@/lib/GetMovies";
+import { getNowPlayingMovies, getPopularMovies, getTopRatedMovies, getUpcomingMovies } from "@/lib/GetMovies";
 import CarouselBanner from "@/components/CaroselBanner";
 import MovieContainer from "@/components/MovieContainer";
 export default async function Home() {

@@ -1,7 +1,6 @@
 import MovieContainer from '@/components/MovieContainer';
 import { getNowPlayingMovies, getPopularMovies, getUpcomingMovies } from '@/lib/GetMovies';
 import React from 'react'
-import { any } from 'zod';
 interface Props{
     searchParams:{
         title:string;

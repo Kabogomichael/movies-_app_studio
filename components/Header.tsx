@@ -1,6 +1,4 @@
-import Image from 'next/image'
 import React from 'react'
-import Logo from '@/public/logo.png'
 import Link from 'next/link'
 import GenreDropDown from './GenreDropDown'
 import SearchInput from './SearchInput'

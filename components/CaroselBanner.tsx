@@ -1,7 +1,7 @@
 
 import React from 'react'
 import HeroCarousel from './HeroCarousel';
-import { getDiscoverMovies, getPopularMovies } from '@/lib/GetMovies';
+import { getDiscoverMovies } from '@/lib/GetMovies';
 interface Props{
     id:string;
     keywords:string;
