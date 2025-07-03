@@ -23,10 +23,7 @@ const ViewMore = async ({searchParams:{title}}:Props) => {
     movies = await getPopularMovies();
     
    }
-    if (!Array.isArray(movies)) {
-        return <p>No movies found</p>
-        
-    }
+
   return (
     <div className='py-10'>
         <h2 className='text-4xl font-bold px-10 mb-5 '>Result of {title}</h2>
