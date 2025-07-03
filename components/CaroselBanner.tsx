@@ -8,6 +8,10 @@ interface Props{
 }
 const CarouselBanner = async({id,keywords}:Props) => {
    const movies = await getDiscoverMovies(id,keywords)
+   if (!Array.isArray(movies)) {
+    return <p>Not movies found</p>
+    
+   }
   //  const movies =  await getPopularMovies()
 
 
