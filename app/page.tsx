@@ -6,10 +6,7 @@ export default async function Home() {
 const upComingMovies = await getUpcomingMovies();
 const topRatedMovies = await getTopRatedMovies();
 const popularMovies = await getPopularMovies();
-if (!Array.isArray(nowPlayingMovies || upComingMovies || topRatedMovies|| popularMovies)) {
-  return <p>Nothing found</p>
-  
-}
+
 
   return (
    <div>
