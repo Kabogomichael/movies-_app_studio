@@ -11,7 +11,7 @@ const popularMovies = await getPopularMovies();
   return (
    <div>
    
-  <CarouselBanner    />
+  <CarouselBanner id="uuu"keywords=""   />
   <div className="flex flex-col space-y-2 ">
     <MovieContainer movies={nowPlayingMovies}  title="Now Playing" />
     <MovieContainer movies={upComingMovies}  title="UpComing"/>
