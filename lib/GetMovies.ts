@@ -73,7 +73,7 @@ export const getSearchMovies = async (term: string) => {
 export const getMoviesVideos = async (id: string) => {
   const url = new URL(`https://api.themoviedb.org/3/movie/${id}/videos`);
   const data = await fetcher(url);
-    console.log(data.results,"hhhhhh");
+    
     
   return data.results;
 

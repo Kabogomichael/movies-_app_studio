@@ -26,7 +26,7 @@ export type Genres = {
 }
 export type SearchResult = {
     page:number;
-    result:Movie[];
+    results:Movie[];
     total_pages:number;
     total_result:number;
 }
